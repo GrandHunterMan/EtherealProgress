@@ -1,0 +1,16 @@
+[
+{
+  "modid": "ethp",
+  "name": "Ethereal Progress",
+  "description": "Adding industry to minecraft!",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["GrandHunterMan"],
+  "credits": "All the devs who made modding possible",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
