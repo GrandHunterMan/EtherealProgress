@@ -1,0 +1,15 @@
+#ITEMS  #ITEMS  #ITEMS
+#ITEMS  #ITEMS  #ITEMS
+#ITEMS  #ITEMS  #ITEMS
+
+#Ingots
+item.copper_ingot.name=Copper Ingot
+item.tin_ingot.name=Tin Ingot
+item.aluminum_ingot.name=Aluminum Ingot
+item.chrome_ingot.name=Chrome Ingot
+item.coaly_iron_ingot.name=Coaly Iron Ingot
+item.lead_ingot.name=Lead Ingot
+item.nickel_ingot.name=Nickel Ingot
+item.silver_ingot.name=Silver Ingot
+item.steel_ingot.name=Steel Ingot
+item.titanium_ingot.name=Titanium Ingot

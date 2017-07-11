@@ -14,7 +14,7 @@ import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 
 @Mod(modid = ref.MODID, name = ref.MODNAME, version = ref.MODVERSION)
-public class ExampleMod
+public class EtherealProgress
 {
     @SidedProxy(clientSide = ref.CLIENTPROXY, serverSide = ref.COMMONPROXY)
     public static CommonProxy proxy;
