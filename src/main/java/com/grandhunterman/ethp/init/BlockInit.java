@@ -30,6 +30,16 @@ public class BlockInit {
     public static Block rutile_ore;
     public static Block cryolite_ore;
 
+    public static Block copper_block;
+    public static Block tin_block;
+    public static Block aluminum_block;
+    public static Block chrome_block;
+    public static Block lead_block;
+    public static Block nickel_block;
+    public static Block silver_block;
+    public static Block titanium_block;
+    public static Block rutile_block;
+    public static Block cryolite_block;
 
     public static void init()
     {
@@ -43,6 +53,18 @@ public class BlockInit {
         titanium_ore = new Ores("titanium_ore", 2.0f, 2.0f, 2);
         rutile_ore = new Ores("rutile_ore", 2.0f, 2.0f, 2);
         cryolite_ore = new Ores("cryolite_ore", 2.0f, 2.0f, 2);
+
+        copper_block = new Ores("copper_block", 2.0f, 2.0f, 2);
+        tin_block = new Ores("tin_block", 2.0f, 2.0f, 2);
+        aluminum_block = new Ores("aluminum_block", 2.0f, 2.0f, 2);
+        chrome_block = new Ores("chrome_block", 2.0f, 2.0f, 2);
+        nickel_block = new Ores("nickel_block", 2.0f, 2.0f, 2);
+        lead_block = new Ores("lead_block", 2.0f, 2.0f, 2);
+        silver_block = new Ores("silver_block", 2.0f, 2.0f, 2);
+        titanium_block = new Ores("titanium_block", 2.0f, 2.0f, 2);
+        rutile_block = new Ores("rutile_block", 2.0f, 2.0f, 2);
+        cryolite_block = new Ores("cryolite_block", 2.0f, 2.0f, 2);
+
     }
 
     public static void register()
@@ -57,6 +79,17 @@ public class BlockInit {
         registerBlock(titanium_ore);
         registerBlock(rutile_ore);
         registerBlock(cryolite_ore);
+
+        registerBlock(copper_block);
+        registerBlock(tin_block);
+        registerBlock(aluminum_block);
+        registerBlock(chrome_block);
+        registerBlock(lead_block);
+        registerBlock(nickel_block);
+        registerBlock(silver_block);
+        registerBlock(titanium_block);
+        registerBlock(rutile_block);
+        registerBlock(cryolite_block);
     }
 
 
@@ -83,6 +116,17 @@ public class BlockInit {
         registerRender(titanium_ore);
         registerRender(rutile_ore);
         registerRender(cryolite_ore);
+
+        registerRender(copper_block);
+        registerRender(tin_block);
+        registerRender(aluminum_block);
+        registerRender(chrome_block);
+        registerRender(lead_block);
+        registerRender(nickel_block);
+        registerRender(silver_block);
+        registerRender(titanium_block);
+        registerRender(cryolite_block);
+        registerRender(rutile_block);
 
 
     }

@@ -50,8 +50,20 @@ tile.titanium_ore.name=Titanium Ore
 tile.rutile_ore.name=Rutile
 tile.cryolite_ore.name=Cryolite
 
-
 #Processed Blocks
+tile.copper_block.name=Copper Block
+tile.tin_block.name=Tin Block
+tile.aluminum_block.name=Aluminum Block
+tile.chrome_block.name=Chrome Block
+tile.lead_block.name=Lead Block
+tile.nickel_block.name=Nickel Block
+tile.silver_block.name=Silver Block
+tile.titanium_block.name=Titanium Block
+tile.rutile_block.name=Rutile Block
+tile.cryolite_block.name=Cryolite Block
+
+
+
 
 
 
