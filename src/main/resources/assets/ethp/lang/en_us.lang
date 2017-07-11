@@ -13,3 +13,57 @@ item.nickel_ingot.name=Nickel Ingot
 item.silver_ingot.name=Silver Ingot
 item.steel_ingot.name=Steel Ingot
 item.titanium_ingot.name=Titanium Ingot
+
+#Dusts & Gems
+item.cryolite_crystal.name=Cryolite Crystal
+item.rutile_crystal.name=Rutile Crystal
+item.salt_dust.name=Salt
+
+#Electronic doodads
+item.basic_capacitor.name=Basic Capacitor
+item.basic_resistor.name=Basic Resistor
+item.basic_switch.name=Basic Switch
+item.bread_board.name=Breadboard
+item.improvised_circuit_board.name=Improvised Circuit Board
+
+#Processed Metal
+item.low_nichrome_wire.name=Crude Nichrome Wire
+item.copper_foil.name=Copper Foil
+
+
+
+
+
+#BLOCKS #BLOCKS #BLOCKS
+#BLOCKS #BLOCKS #BLOCKS
+#BLOCKS #BLOCKS #BLOCKS
+
+#Ores
+tile.copper_ore.name=Copper Ore
+tile.tin_ore.name=Tin Ore
+tile.aluminum_ore.name=Aluminum Ore
+tile.chrome_ore.name=Chrome Ore
+tile.lead_ore.name=Lead Ore
+tile.nickel_ore.name=Nickel Ore
+tile.silver_ore.name=Silver Ore
+tile.titanium_ore.name=Titanium Ore
+tile.rutile_ore.name=Rutile
+tile.cryolite_ore.name=Cryolite
+
+
+#Processed Blocks
+
+
+
+#GUI    #GUI    #GUI
+#GUI    #GUI    #GUI
+#GUI    #GUI    #GUI
+
+#Config
+gui.config.main_title.name=Categories
+gui.config.category.items=Items
+gui.config.category.items.tooltip=Items!!!
+gui.config.items.i_dont_know.name=I Don't Know
+gui.config.items.i_dont_know.comment=Why's it's name in uppercase?
+gui.config.items.cool.name=Cool
+gui.config.items.cool.comment=Test?

@@ -1,5 +1,6 @@
 package com.grandhunterman.ethp.proxy;
 
+import com.grandhunterman.ethp.handlers.ConfigHandler;
 import com.grandhunterman.ethp.handlers.RegistryHandler;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
@@ -13,6 +14,7 @@ public class ClientProxy extends CommonProxy {
     public void preInit(FMLPreInitializationEvent event)
     {
         super.preInit(event);
+
     }
 
 
@@ -20,6 +22,7 @@ public class ClientProxy extends CommonProxy {
     {
         super.init(event);
         RegistryHandler.Client();
+
     }
 
 

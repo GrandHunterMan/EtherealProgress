@@ -10,6 +10,7 @@ public class ref {
 
     public static final String CLIENTPROXY = "com.grandhunterman.ethp.proxy.ClientProxy";
     public static final String COMMONPROXY = "com.grandhunterman.ethp.proxy.CommonProxy";
+    public static final String CONFIGGUIFACTORY = "com.grandhunterman.ethp.GUI.ConfigGUIFactory";
 
     //public static final String ;
 }

@@ -1,5 +1,6 @@
 package com.grandhunterman.ethp.handlers;
 
+import com.grandhunterman.ethp.init.BlockInit;
 import com.grandhunterman.ethp.init.ItemInit;
 
 /**
@@ -11,6 +12,7 @@ public class RegistryHandler {
     public static void Client()
     {
         ItemInit.register();
+        BlockInit.registerRenders();
     }
 
 
@@ -18,6 +20,8 @@ public class RegistryHandler {
     public static void Common()
     {
         ItemInit.init();
+        BlockInit.init();
+        BlockInit.register();
     }
 
 

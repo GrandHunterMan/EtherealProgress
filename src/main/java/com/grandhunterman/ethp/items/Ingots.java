@@ -8,9 +8,12 @@ import net.minecraft.item.Item;
  */
 public class Ingots extends net.minecraft.item.Item {
     public Ingots(String name){
+        super();
         setUnlocalizedName(name);
         setRegistryName(name);
-        setCreativeTab(CreativeTabs.MATERIALS);
+        setCreativeTab(CreativeTabs.MISC);
+        setMaxStackSize(64);
+
 
 
     }

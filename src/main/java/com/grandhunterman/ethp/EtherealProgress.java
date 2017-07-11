@@ -4,8 +4,10 @@ package com.grandhunterman.ethp;
  * Created by GrandHunterMan on Jul 10. Copyright 2017.
  */
 
+import com.grandhunterman.ethp.handlers.ConfigHandler;
 import com.grandhunterman.ethp.proxy.CommonProxy;
 import net.minecraft.init.Blocks;
+import net.minecraftforge.common.config.Config;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.EventHandler;
 import net.minecraftforge.fml.common.SidedProxy;
@@ -13,7 +15,7 @@ import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 
-@Mod(modid = ref.MODID, name = ref.MODNAME, version = ref.MODVERSION)
+@Mod(modid = ref.MODID, name = ref.MODNAME, version = ref.MODVERSION, guiFactory = ref.CONFIGGUIFACTORY)
 public class EtherealProgress
 {
     @SidedProxy(clientSide = ref.CLIENTPROXY, serverSide = ref.COMMONPROXY)
@@ -21,10 +23,13 @@ public class EtherealProgress
 
 
 
+
     //PREINIT
     @EventHandler
     public static void preInit(FMLPreInitializationEvent event){
         proxy.preInit(event);
+        ConfigHandler.preInit();
+        ConfigHandler.clientPreInit();
     }
 
 
@@ -34,6 +39,7 @@ public class EtherealProgress
     public static void init(FMLInitializationEvent event)
     {
         proxy.init(event);
+
     }
 
 

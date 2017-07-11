@@ -1,5 +1,6 @@
 package com.grandhunterman.ethp.init;
 
+import com.grandhunterman.ethp.items.BasicItem;
 import com.grandhunterman.ethp.items.Ingots;
 import com.grandhunterman.ethp.ref;
 import net.minecraft.client.Minecraft;
@@ -13,7 +14,8 @@ import net.minecraftforge.fml.common.registry.ForgeRegistries;
 public class ItemInit {
 
     public static Item copper_ingot, tin_ingot, aluminum_ingot, chrome_ingot, coaly_iron_ingot, lead_ingot, nickel_ingot, silver_ingot, steel_ingot, titanium_ingot;
-
+    public static  Item rutile_crystal, cryolite_crystal, salt_dust;
+    public static Item basic_capacitor, basic_resistor, basic_switch, bread_board, improvised_circuit_board;
 
     public static void init()
     {
@@ -27,6 +29,16 @@ public class ItemInit {
         silver_ingot = new Ingots("silver_ingot");
         steel_ingot = new Ingots("steel_ingot");
         titanium_ingot = new Ingots("titanium_ingot");
+
+        rutile_crystal = new BasicItem("rutile_crystal");
+        cryolite_crystal = new BasicItem("cryolite_crystal");
+        salt_dust = new BasicItem("salt_dust");
+
+        basic_capacitor = new BasicItem("basic_capacitor");
+        basic_resistor = new BasicItem("basic_resistor");
+        basic_switch = new BasicItem("basic_switch");
+        bread_board = new BasicItem("bread_board");
+        improvised_circuit_board = new BasicItem("improvised_circuit_board");
     }
     public static void register()
     {
@@ -40,6 +52,16 @@ public class ItemInit {
         registerItem(silver_ingot);
         registerItem(steel_ingot);
         registerItem(titanium_ingot);
+
+        registerItem(rutile_crystal);
+        registerItem(cryolite_crystal);
+        registerItem(salt_dust);
+
+        registerItem(basic_capacitor);
+        registerItem(basic_resistor);
+        registerItem(basic_switch);
+        registerItem(bread_board);
+        registerItem(improvised_circuit_board);
     }
     public static void registerItem(Item item)
     {
